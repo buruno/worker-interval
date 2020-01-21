@@ -1,6 +1,6 @@
 {
   "name": "worker-interval",
-  "version": "1.0.6",
+  "version": "1.1.6",
   "description": "setInterval and clearInterval implementation to support keep running on inactive tabs for Chrome, Firefox and IE",
   "main": "dist/module.js",
   "types": "typings/module.d.ts",
@@ -24,14 +24,14 @@
     "@types/node": "^8.0.58",
     "@types/uuid": "^3.4.3",
     "gulp": "^3.9.1",
-    "gulp-tslint": "^8.1.2", 
-    "gulp-typescript": "^3.2.3",    
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.3",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2",
     "webpack": "^3.10.0"
   },
-  "dependencies": {    
+  "dependencies": {
     "uuid": "^3.1.0",
-    "worker-loader": "^1.1.0"
-  }  
+    "worker-loader": "^2.0.0"
+  }
 }
